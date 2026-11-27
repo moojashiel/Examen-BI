@@ -1,0 +1,31 @@
+﻿Nombre,Branch,Estado,Client,NombreSucursal
+1,20,Tabasco,1522,Sucursal O
+2,27,Puebla,1522,Sucursal V
+3,21,Tabasco,1522,Sucursal P
+4,24,Tabasco,1522,Sucursal S
+5,34,Puebla,1520,Sucursal Y
+6,2,Yucatán,1520,Sucursal B
+7,10,Quintana Roo,1521,Sucursal I
+8,7,Quintana Roo,1521,Sucursal F
+9,23,Tabasco,1522,Sucursal R
+10,25,Puebla,1522,Sucursal T
+11,26,Puebla,1522,Sucursal U
+12,9,Quintana Roo,1521,Sucursal H
+13,1,Yucatán,1520,Sucursal A
+14,8,Quintana Roo,1521,Sucursal G
+15,12,Quintana Roo,1521,Sucursal K
+16,19,Veracruz,1521,Sucursal Ñ
+17,3,Yucatán,1520,Sucursal C
+18,22,Tabasco,1522,Sucursal Q
+19,5,Yucatán,1520,Sucursal D
+20,33,Puebla,1522,Sucursal X
+21,13,Veracruz,1521,Sucursal L
+22,32,Puebla,1522,Sucursal W
+23,11,Quintana Roo,1521,Sucursal J
+24,18,Veracruz,1521,Sucursal N
+25,16,Veracruz,1521,Sucursal M
+26,37,CDMX,1520,Sucursal AC
+27,36,CDMX,1520,Sucursal AB
+28,35,CDMX,1520,Sucursal Z
+29,38,CDMX,1520,Sucursal AD
+30,6,Yucatán,1521,Sucursal E
