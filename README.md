@@ -2,11 +2,11 @@
 
 Proyecto de Business Intelligence desarrollado como resolución del examen de BI Engineer.
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 El proyecto analiza datos de ventas y órdenes de servicio correspondientes al año 2021. A partir de información distribuida en diferentes archivos CSV, se realizó la exploración, limpieza, transformación y procesamiento de los datos para construir un modelo analítico tipo estrella y, finalmente, desarrollar un dashboard en Power BI que permita visualizar y analizar los resultados.
 
-## 🗂️ Datos utilizados
+## Datos utilizados
 
 Los datos originales se encuentran en `data/raw/`:
 
@@ -17,9 +17,9 @@ Los datos originales se encuentran en `data/raw/`:
 Los datos procesados se organizaron en:
 
 - `data/preprocessed/datos_2021.csv`: datos obtenidos después de integrar y preprocesar las fuentes originales.
-- `data/processed/datos_procesados_2021.csv`: datos finales preparados para el análisis y la construcción del modelo.
+- `data/processed/datos_procesados_2021.csv`: datos finales preparados mediante ciertos criterios mas interpretativos y reglas de negocio.
 
-## 🔄 Trabajo realizado
+## Trabajo realizado
 
 ### 1. Exploración de los datos
 
@@ -43,7 +43,7 @@ En [`02_preprocesamiento.ipynb`](src/02_preprocesamiento.ipynb) se realizó:
 
 En [`03_procesamiento.ipynb`](src/03_procesamiento.ipynb) se llevó a cabo:
 
-- La transformación adicional de los datos.
+- La transformación adicional de los datos considerando criterios propios y reglas de negocio.
 - La preparación de variables y atributos analíticos.
 - La generación del dataset final almacenado en `data/processed/datos_procesados_2021.csv`.
 
@@ -66,7 +66,7 @@ El diseño del modelo está documentado en:
 - [`docs/Modelo Estrella.drawio`](docs/Modelo%20Estrella.drawio)
 - [`docs/Esquema Estrella.drawio.png`](docs/Esquema%20Estrella.drawio.png)
 
-## 📊 Dashboard
+## Dashboard
 
 El resultado final se encuentra en [`dashboard/Reporte_Ventas.pbix`](dashboard/Reporte_Ventas.pbix), creado en Microsoft Power BI.
 
@@ -74,7 +74,7 @@ El reporte utiliza las tablas dimensionales almacenadas en `dashboard/` y presen
 
 Una versión exportada del reporte está disponible en [`docs/Reporte_Ventas.pdf`](docs/Reporte_Ventas.pdf).
 
-## 🛠️ Tecnologías utilizadas
+## Herramientas utilizadas
 
 - Python
 - Jupyter Notebook
@@ -85,7 +85,7 @@ Una versión exportada del reporte está disponible en [`docs/Reporte_Ventas.pdf
 - Archivos CSV
 - Modelo dimensional tipo estrella
 
-## 🚀 Uso del proyecto
+## Uso del proyecto
 
 ### Instalar las dependencias
 
@@ -105,7 +105,7 @@ Los notebooks deben ejecutarse en orden, desde `01_exploracion.ipynb` hasta `05_
 
 Abre el archivo `dashboard/Reporte_Ventas.pbix` con Microsoft Power BI Desktop.
 
-## 📁 Estructura del repositorio
+##  Estructura del repositorio
 
 ```text
 Examen-BI/
